@@ -1,68 +1,40 @@
-.wd-search {
-    color: #F5F8FA;
-    background-color: #212327;
-    border-radius: 30px;
-    width: calc(100% - 60px);
-    height: 20px;
-    margin-left: 16px;
-    margin-top: 12px;
-    vertical-align: middle;
+.wd-tweet-button {
+    border-radius: 20px;
 }
-input#search{
-    background-image: url(../images/search-icon.svg);
-    background-repeat: no-repeat;
-    text-indent: 30px;
+.wd-search {
+    position: relative;
+}
+.wd-search .fa-search {
+    position: absolute;
+    top: 12px;
+    left: 16px;
+}
+.wd-search input{
+    text-indent: 50px;
+}
+.wd-search-bar {
+    border-radius: 20px;
 }
 .wd-gear {
-    vertical-align: middle;
-    margin-top: 12px;
-    float: right;
-    margin-right: 12px;
-    filter: invert(49%) sepia(22%) saturate(1675%) hue-rotate(160deg) brightness(90%) contrast(98%);
-}
-.wd-tab-first {
-    color: #1DA1F2;
-    font-size: 15px;
-    padding: 16px;
-    text-decoration: none;
-    border-bottom-color: #1DA1F2;
-    border-bottom-style: solid;
-    border-bottom-width: thick;
-    margin-left: 16px;
-}
-.wd-tab-rest {
-    color: #6E767D;
-    font-size: 15px;
-    padding: 16px;
-    text-decoration: none;
-}
-.wd-post-title {
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-}
-.wd-post-author {
-    color: white;
-    font-size: 13px;
-    font-weight: bold;
-}
-.wd-post-regular {
-    color: rgb(110,118,125);
-    font-size: 13px;
-}
-.wd-post {
-    color: rgb(110,118,125);
-    font-size: 13px;
-    border-color: rgba(47,51,54,1);
-    border-style: solid;
-    border-width: 1px;
-    padding-left: 16px;
+    font-size: 25px;
+    position: absolute;
+    padding-top: 18px;
+    color: #0b6cfd;
 }
 .wd-post-image {
-    border-radius: 20px;
+    border-radius: 10px;
+}
+.img-fluid {
+    max-width: 70px;
+    height: auto;
+}
+.wd-user-image {
+    border-radius: 50%;
+    width: 48px;
+    height: auto;
     object-fit: cover;
-    width: 100px;
-    height: 100px;
-    float: right;
-    margin-right: 16px;
+}
+.card-columns {
+    padding: 0;
+    margin: 0;
 }
