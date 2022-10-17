@@ -4,9 +4,9 @@ import WhoToFollowListItem from "./WhoToFollowListItem.js"
 const WhoToFollowList = () => {
     return(`
         <div class="card-columns">
-            <div class="card">
+            <div class="card bg-light text-white">
                 <div class="row my-2 mx-1">
-                    <b class="text-white">Who to follow</b>
+                    <b>Who to follow</b>
                 </div>
             </div>
             ${

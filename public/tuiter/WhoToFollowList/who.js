@@ -9,5 +9,5 @@ export default [
    handle: 'virgingalactic', },
  {   avatarIcon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/2449px-NASA_logo.svg.png',
    userName: 'NASA', handle: 'NASA', },
- {   avatarIcon: 'https://www.mgmtransformer.com/wp-content/uploads/2020/11/Tesla-Logo-640X590.jpg',
+ {   avatarIcon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Tesla_T_symbol.svg/800px-Tesla_T_symbol.svg.png',
    userName: 'Tesla', handle: 'Tesla', }, ];
