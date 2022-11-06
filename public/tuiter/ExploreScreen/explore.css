@@ -1,0 +1,40 @@
+.wd-tweet-button {
+    border-radius: 20px;
+}
+.wd-search {
+    position: relative;
+}
+.wd-search .fa-search {
+    position: absolute;
+    top: 12px;
+    left: 16px;
+}
+.wd-search input{
+    text-indent: 50px;
+}
+.wd-search-bar {
+    border-radius: 20px;
+}
+.wd-gear {
+    font-size: 25px;
+    position: absolute;
+    padding-top: 18px;
+    color: #0b6cfd;
+}
+.wd-post-image {
+    border-radius: 10px;
+}
+.img-fluid {
+    max-width: 70px;
+    height: auto;
+}
+.wd-user-image {
+    border-radius: 50%;
+    width: 48px;
+    height: auto;
+    object-fit: cover;
+}
+.card-columns {
+    padding: 0;
+    margin: 0;
+}
