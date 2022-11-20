@@ -1,0 +1,27 @@
+[{ "_id": 123, "topic": "Web Development", "userName": "ReactJS",
+  "title": "React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs",
+  "time": "2h",   "image": "reactjs.png",
+  "liked": true, "replies":  123, "retuits":  432, "likes": 2345, "handle": "@reactJS",
+  "tuit": "React.js is highly demanded in the world of modern frontend development: many developers use it by default to write interfaces. But remember that React is just a JavaScript library, and to master it, you need to know JavaScript well. \n\nReact developers can build high-performance applications very quickly, regardless of their level of complexity. The ability to easily reuse existing code increases development speed, simplifies the testing process, and, as a result, reduces costs. \n\nNote that React has its own philosophy, tricks, and limitations that you need to follow in order to write code of high quality. Therefore, if you want to become a good React developer, you should not only learn the syntax but also communicate with more experienced colleagues and show them your code."},
+
+  { "_id": 234, "topic": "Web Development",   "userName": "JavaScript",
+    "title": "Guide to the Best JavaScript Books for Beginners",
+    "time": "1 day",   "image": "javascript.jpg",
+    "liked": false, "replies":  532, "retuits":  8, "likes": 800, "handle": "@javascript",
+    "tuit": "JavaScript is often referred to as “the programming language of the Web”. There’s a high chance you’ll be interacting with JavaScript every time you visit a new web page — whether you’re clicking on menus, logging in to an account, viewing image galleries and popups, and watching elements move around the page."
+  },
+
+  { "_id": 345, "topic": "Web Development",  "userName": "jQuery",
+    "title": "What is jQuery?",
+    "time": "last week",   "image": "jquery.png",
+    "liked": true, "replies":  12, "retuits":  3, "likes": 9323, "handle": "@jquery",
+    "tuit": "jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. If you're new to jQuery, we recommend that you check out the jQuery Learning Center."
+  },
+
+  { "_id": 456, "topic": "Web Development",  "userName": "NodeJS",
+    "title": "Node.js 19 boosts HTTP throughput\n",
+    "time": "last month",   "image": "nodejs.png",
+    "liked": false, "replies":  999, "retuits":  999, "likes": 1, "handle": "@nodeJS",
+    "tuit": "Accessible from nodejs.org, Node.js 19 was released October 18. Beginning with this release, Node.js sets keepAlive to true by default. Thus any outgoing HTTP(S) connection automatically will use HTTP 1.1 Keep-Alive, providing better throughput as connections are reused by default. There is a default waiting window of five seconds. Additionally, Node’s HTTP Agent is able to parse the response Keep-Alive that servers might send. This header instructs the client on how long to stay connected. The Node HTTP server now will automatically disconnect idle clients when close() is invoked."
+  }
+]
